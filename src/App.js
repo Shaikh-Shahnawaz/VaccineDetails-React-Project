@@ -121,6 +121,15 @@ function App() {
         {/* Set Current Date to drevious date on click  */}
       </div>
 
+ {/* -------------------------------------------pie chart div------------------------------------------- */}
+ <div className="chart my-5">
+        {/* Update the following Component to display pie chart with proper data, alignment and colors */}
+        <PieChart
+          allUser={[vaccineDates.length]}
+          data={[startDate.length, vaccineDates.length - startDate.length]}
+        />
+      </div>
+
       {/* -------------------------------------table div------------------------------------- */}
 
       <div className="container mt-2">
@@ -168,14 +177,7 @@ function App() {
         </table>
       </div>
 
-      {/* -------------------------------------------pie chart div------------------------------------------- */}
-      <div className="chart">
-        {/* Update the following Component to display pie chart with proper data, alignment and colors */}
-        <PieChart
-          allUser={[vaccineDates.length]}
-          data={[startDate.length, vaccineDates.length - startDate.length]}
-        />
-      </div>
+     
 
       {/* Add a table with the user data as explained in README.MD */}
     </div>
