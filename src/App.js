@@ -122,7 +122,7 @@ function App() {
       </div>
 
  {/* -------------------------------------------pie chart div------------------------------------------- */}
- <div className="chart my-5">
+      <div className="chart mb-5">
         {/* Update the following Component to display pie chart with proper data, alignment and colors */}
         <PieChart
           allUser={[vaccineDates.length]}
@@ -132,7 +132,7 @@ function App() {
 
       {/* -------------------------------------table div------------------------------------- */}
 
-      <div className="container mt-2">
+      <div style={{marginTop:'200px'}} className="container">
         <table class="table table-hover">
           <thead>
             <tr>

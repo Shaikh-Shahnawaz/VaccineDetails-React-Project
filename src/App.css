@@ -4,6 +4,10 @@
 .currentdate {
   margin: 20px 0px;
 }
-.chart {
-  margin: 0px 500px;
-}
+
+/* @media  (max-width:1200px ) and (min-width: 800px){ */
+  .chart {
+    margin: 0px 800px;
+  }
+  
+/* } */
